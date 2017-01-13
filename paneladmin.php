@@ -21,6 +21,7 @@ if(isset($_SESSION['secure']) && !empty($_SESSION['secure']) && $_SESSION['secur
 		<a href='index.php?paneladmin&ic'>Criar novo artigo</a><br/>
 		<a href='index.php?paneladmin&ed'>Editar artigo existente</a><br/>
 		<a href='index.php?paneladmin&hash'>Criar hash</a><br/>
+		<a href='index.php?paneladmin&decrypthash'>Decriptografar um Hash</a></br> // Função de hashdecrypt
 		<a href='logoff.php'>Logoff</a><br/>
 		</div>";
 	}
