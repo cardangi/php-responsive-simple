@@ -22,7 +22,7 @@ if(isset($_SESSION['error'])
 	OR in_array('userinput_notset',$_SESSION['error'], true) 
 	OR in_array('userinput_empty',$_SESSION['error'], true))
 	OR in_array('nomatch_password',$_SESSION['error'], true))
-	{header('Location: index.php?login');}
+	{header('Location: index.php?register');}
 
 if(isset($_SESSION['token']) && (time() - $_SESSION['token'][1] < 1800) && isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password']) && !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['password'])){
 	require('connection.php');

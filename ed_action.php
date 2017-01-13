@@ -1,8 +1,8 @@
 <?php
 session_start();
 require('connection.php');
-if(isset($_SESSION['secure']) && !empty($_SESSION['secure']) && $_SESSION['secure' == '5' && (time() - $_SESSION['edactiontrue'] > 1800)){
-	unset($_SESSION['edactiontrue']);
+if(isset($_SESSION['secure']) && !empty($_SESSION['secure']) && $_SESSION['secure'][1] == '5' && (time() - $_SESSION['token'] > 1800)){
+	unset($_SESSION['token']);
 	$pwhash = '1234';
 	$userhash = '1234';
 	if(isset($_POST['search']) && !empty($_POST['search'])){
