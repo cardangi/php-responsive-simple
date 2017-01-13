@@ -1,0 +1,269 @@
+/* FONTES */
+/* FONTES */
+/* FONTES */
+body{
+	font-family:"Times New Roman", Times, serif;
+	font-style:normal;
+	font-size:16px;
+	font-weight:normal;
+	color:#000;
+	background-color:#303030;
+}
+h1{
+	font-size:38px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+h2{
+	font-size:22px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+h3{
+	font-size:20px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+}
+.red{
+	color:#e60000;
+}
+#smalltext{
+	font-size:12px;
+}
+
+/* ESTRUTURA */
+/* ESTRUTURA */
+/* ESTRUTURA */
+#all{
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:#fffff4;
+}
+#layer_dark{
+	position:relative;
+	background-color:#303030;
+	padding-top:50px;
+}
+#layer_darktop{
+	position:relative;
+	background-color:#303030;
+	border-bottom:1px solid #f2f2f2;
+}
+#layer_darkbottom{
+	position:relative;
+	background-color:#303030;
+	border-top:1px solid #f2f2f2;
+}
+#layer0{
+	position:relative;
+	max-width:1000px;
+	margin:0 auto;
+}
+#layer1{
+	position:relative;
+	max-width:1000px;
+	background-color:#5555ff;
+	border-radius:2px 2px 0 0;
+	color:#ffffff;
+	padding:5px 5px 0 5px;	
+}
+#layer3{
+	position:relative;
+	max-width:1000px;
+	border-left:1px solid #f2f2f2;
+	border-right:1px solid #f2f2f2;
+	margin:0 auto;
+}
+#layer5_1{
+	position:relative;
+	width:16%;
+	max-width:217px;
+	display:inline-table;
+	color:#ffffff;
+	text-align:center;
+}
+#center{
+	text-align:center;
+	max-width:1000px;
+	min-height:400px;
+	font-weight:bold;
+	padding: 5px 5px;
+}
+#left{
+	text-align:left;
+	max-width:1000px;
+	min-height:400px;
+	font-weight:bold;
+	padding: 5px 5px;
+}
+#adminlabel{
+	width:160px;
+	display:inline-table;
+	text-align:left;
+}
+#ctitle{
+	text-align:center;
+	max-width:1000px;
+	padding-top:5px;
+}
+#cdate{
+	text-align:center;
+	max-width:1000px;
+	font-size:12px;
+	font-weight:normal;
+	color:#4d4d4d;
+}
+#cbody{
+	position:relative;
+	max-width:1000px;
+	padding:5px;
+}
+#ctitle_left{
+	max-width:70%;
+	padding-top:5px;
+	display:inline-table;
+}
+#cdate_left{
+	max-width:30%;
+	font-size:12px;
+	font-weight:normal;
+	color:#4d4d4d;
+	padding-left:5px;
+	display:inline-table;
+}
+#cbody_left{
+	position:relative;
+	max-width:1000px;
+	padding-left:5px;
+}
+#center_no_height{
+	text-align:center;
+	max-width:1000px;
+	font-size:18px;
+	font-weight:bold;
+}
+#inline_table{
+	display:inline-table;
+}
+
+/* LINKS */
+/* LINKS */
+/* LINKS */
+a{
+	text-decoration:none;
+	color:#0000EE;
+}
+a:hover{
+	text-decoration:none;
+	color:#551A8B;
+}
+
+/* BUTTONS */
+/* BUTTONS */
+/* BUTTONS */
+input[type=submit]{
+	font-family:"Times New Roman", Times, serif;
+	font-style:normal;
+	font-size:16px;
+	font-weight:normal;
+	color:#fff;
+	background-color:#5555ff;
+	border:0;
+	height:31px;
+	width:95px;
+}
+input[type=submit]:hover{
+	color:#e6e6ff;
+	background-color:#9b9bff;
+}
+input[type=submit]#mini_button{
+	font-family:"Times New Roman", Times, serif;
+	font-style:normal;
+	font-size:16px;
+	font-weight:normal;
+	color:#fff;
+	background-color:#5555ff;
+	border:0;
+	height:31px;
+	width:31px;
+}
+input[type=submit]#mini_button:hover{
+	color:#e6e6ff;
+	background-color:#9b9bff;
+}
+
+/* MENU */
+/* MENU */
+/* MENU */
+nav#menutop{
+	width:160px;
+	display:inline-table;
+	text-align:center;
+	line-height:31px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+}
+nav#menutop a{
+	color:#fff;
+	width:160px;
+	display:inline-table;
+	height:31px;
+}
+nav#menutop a:hover{
+	width:160px;
+	display:inline-table;
+	height:31px;
+	text-decoration:underline;
+	color:#e6e6ff;
+	background-color:#595959;
+}
+nav#menu{
+	width:160px;
+	display:inline-table;
+	text-align:center;
+	line-height:31px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+}
+nav#menu a{
+	color:#fff;
+	width:160px;
+	display:inline-table;
+	height:31px;
+}
+nav#menu a:hover{
+	width:160px;
+	display:inline-table;
+	height:31px;
+	text-decoration:underline;
+	color:#e6e6ff;
+	background-color:#9b9bff;
+}
+nav#menufooter{
+	width:160px;
+	display:inline-table;
+	line-height:31px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+}
+nav#menufooter a{
+	color:#fff;
+	width:160px;
+	display:inline-table;
+	height:31px;
+}
+nav#menufooter a:hover{
+	width:160px;
+	display:inline-table;
+	height:31px;
+	text-decoration:underline;
+	color:#f0f0f0;
+}
