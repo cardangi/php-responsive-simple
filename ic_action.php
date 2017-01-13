@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 require('connection.php');
 if(isset($_SESSION['secure']) && !empty($_SESSION['secure']) && $_SESSION['secure' == '5' && (time() - $_SESSION['icactiontrue'] > 1800)){
